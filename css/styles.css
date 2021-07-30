@@ -123,6 +123,7 @@ header{
         justify-content: center;
         padding-left: 1px;
         padding-top: 10px;
+        border-style: none;
         }
 
         .links
@@ -179,23 +180,8 @@ header{
 
         
 
-        .linkedin-image{
+        .linkedin-image,.telefone-image,.email-image {
 
             position: relative;
  
         }
-
-        .telefone-image{
-
-            position: relative;
-            top: 0px;
-        }
-
-        .email-image{
-            position: relative;
-            top: 0px;
-        }
-
-
-
-        
