@@ -23,7 +23,7 @@ img{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
+    margin: 1px
 }
 
 .cabecalio {
@@ -129,12 +129,73 @@ header{
         {
             width: 30px;
             height: 30px;
-            display: block;
-            text-align: left ;
-            margin-left: 15px; 
+            display: list-item;
+            margin-left: 5px;
+            
 
         }
         hr{ margin: 0px;
         opacity: 0.1;
         }
+
+        .github-link{
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+            top: 25px;
+            left: 15px;
+            text-decoration: none;
+            color: #708090;
+            
+        }
+        .linkedin-link{
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+            top: 27px;
+            left: 16px;
+            text-decoration: none;
+            color: #708090;
+        }
+        .contato-link{
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+            top: 21px;
+            left: 19px;
+            text-decoration: none;
+            color: #708090;
+        }
+        .email-link{
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+            top: 24px;
+            left: 15px;
+            text-decoration: none;
+            color: #708090;
+
+        }
+
+        
+
+        .linkedin-image{
+
+            position: relative;
+ 
+        }
+
+        .telefone-image{
+
+            position: relative;
+            top: 0px;
+        }
+
+        .email-image{
+            position: relative;
+            top: 0px;
+        }
+
+
+
         
