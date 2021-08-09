@@ -1,126 +1,191 @@
-    @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@font-face {
+    font-family: apple;
+    src: url(../font/apple.ttf);
+}
+
+body{
+  background-color: #f4f4f4;
+  font-family: apple;
+}
+
+.cabecalio, .alert-dark, .custom_img_primeira_foto, .custom_container2{
+  text-align: center;
+}
+
+
+.custom-bgnavbar {
+
+    background-color: #333333;
     
-    body{
-        margin: 0 auto;
-        background-image: url(../imagens/fundo.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(163, 162, 162)
-        
-    }
+}
 
+.navbar-dark{
+    opacity: 0.9;
+    font-size: 14px;
+}
+  .alert-dark{
+    margin-top: -3px;
+    background-color: #f5f5f7;
+    border-radius: 0px;
+    border-style: none;
+    font-size: 18;
+  }
+
+  #titulo_cabecalio{
+
+    font-size: 55px;
+    font-weight: bold;}
+
+   #link_cabecalio1{
+    font-size: 20px;
+   }
+
+  #link_cabecalio2{
+      font-size: 20px;
+      margin-left: 35px;
+  }
+
+  .custom_container2{
+    color: white;
+    background-color: black;
+  }
+
+  @media (min-width: 992px) {
+    .acordion_sumir{display: none;}
+
+  }
+
+  @media (max-width: 992px) {
+    .some_inteiro{display: none;}
+    .ocult_icon{display: none;}
+    .alert-dark{margin-top: -50px;}
+  }
+
+  @media (max-width: 767px) {
+    .tete{display: none;}
+    .img_size_responsive{
+      width: 170px ;}
+      .img_dupla{
+        display: none;
+      }
+
+
+  }
+  .custom_container_B
+  {
+    color: white;
+    background-color: black;
+  }
+
+  #titulo_cabecalio_B{
+
+    font-size: 30px;
+    font-weight: bold;
     
-    .foto_perfil
-    {
-        border-radius: 50%;
-        display: inline-block;
-        width: 200px;
-        height: 200px;
-        margin-top: 10px;
-        border: 5px solid #1c4557;
-        
-    }
+  }
 
-    .primeira_camada{
-        text-align: center;
-        width: 906px;
-        height: 1050px;
-        background-color: #2b4c5a;
-        margin: 10px auto;
-        border-radius: 10px;
-        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+ul, p, li, .links_footer{
 
-    }
+  font-size: 12px;
+  list-style: none;
+}
 
-    .segunda_camada{
-        
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+ul, .link_rodape{
+ color:black;
+ margin-bottom: 10px;
+ 
+}
+li, p, .links_footer, .link_rodape{
+color: #8c8c8f;
+margin-bottom: 10px;
+}
 
-    }
-        .containers{
-        padding: 10px auto;
-        margin: 30px auto;
-        margin-top: 1px;
-        background-color: #203842;
-        width: 290px;
-        height: 300px;   
-        border-radius: 10px; 
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0,0,0,0.23);  
-    }
-    .exp{         
-        margin-top: 0;
-        width: 97%
-    }
-    .icones_perfil{
-        margin-top: 5px;
-        width: 30px;
-        height: 30px;
-    }
-        
+.hr1
+ {
+    border: 0;
+    border-top: 1px solid #CCC;
+}
 
-    #text_hobbies{
-        text-align: center;
-    }
+.color_frase_rodape{
 
+color: #2b7fd3;
 
-    .texto_caixas,.rodape_dados{
-        font-size: 16px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
-      }
-      .icones_redes_sociais{
-        
-        
-        margin-top: 30px;
-        display:flex;
-        justify-content: start;
+}
+.config_watch{
+
+  font-size: 13px;
+  color:#b61b25;
+
+}
+
+.accordion {
+  background-color: #eee;
+  color:black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 12px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
 
 
-      }
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: '+'; 
+  font-size: 11px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
 
-      .redes_sociais{
-        margin-left: 8px;
-        margin-top: 10px;
-        width: 30px;
-        height: 30px;
-        max-width: 100%;
-      }
-    .titulo_experiencia{
-        
-        margin: 0 auto;
-        margin-top: 5px;
+.active:after {
+  content: "-"; 
+}
 
-        font-size: 20px;
-    }
-      
-    .desenvido_por{
+.link_acordion{
 
-        margin: 0px;
-        
-    }
+  font-family: apple;
+  font-size: 10px;
+  color:
+  #78787b;
+}
+
+.lista_produtos{
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  text-align: center;
   
-            .next_page
-            {
-                    background-color: #38322e;
-                    border-radius: 10px;
-                    bottom: 10px;
-                    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
-                    color: #d9a000;
-                    cursor: pointer;
-                    height: 40px;
-                    position: fixed;
-                    right: 30px;
-                    width: 80px;
-                    height: 30px;
-                    z-index: 3;
-                    content: '';
-                    display: flex;
-                    justify-content: center;
-                    padding-left: 1px;
-                    padding-top: 10px;
-                    
-                    }
+}
+
+.produtos{
+  
+  background-color: #f4f4f4;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.btn-comprar{
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  width: 100%;
+  height: 100%px;
+  background-color:#0056b8;
+
+}
+
+

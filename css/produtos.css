@@ -1,0 +1,121 @@
+.titulo-categoria {
+    color: grey;
+    font-size: 35px;
+    font-style: italic;
+}
+ 
+
+.lista-produtos{
+    list-style: none;
+    padding: 0;
+
+}
+
+.item-produto {
+
+    
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.item-produto:hover{
+    box-shadow: 0px 1px 1px 1px grey;
+}
+
+
+.nome-produto{
+   font-family: arial, sans-serif, Helvetica, "Apple Color Emoji"; 
+   color: grey;
+   font-weight: inherit;
+   margin-bottom: 15px;
+}
+
+.marca{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1a658;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.quantidade{
+
+    color: #8d8178;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 7px;
+}
+.preco-normal{
+
+    color: #153139;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-top: 7px;
+}
+
+.preco-promo{
+
+    color:#a6192e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+  
+
+}
+.btn-comprar-gilmar{
+
+    border: 1px solid #005866 ;
+    color: #005866 ;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s all;
+
+}
+.btn-comprar-cida{
+
+    border: 1px solid #005866 ;
+    color: #005866 ;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s all;
+
+}
+.precos{
+    margin-top: 45px;
+}
+
+.btn-comprar-gilmar:hover{
+
+    color: white;
+    background-color: #34af23;
+}
+
+
+.btn-comprar-cida:hover{
+
+    color: white;
+    background-color: #34af23;
+}
+
+
+
+
+
+    
